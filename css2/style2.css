@@ -1,0 +1,160 @@
+/*title*/
+.title-bar{
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 50px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+
+
+/*like navbar*/
+.semi-navbar-text{
+    text-align: center;
+}
+
+.stitle-bar{
+    display: flex;
+    height: 35px;
+    font-size: 25px;
+    font-family: cursive;
+    color: blue;
+}
+
+
+/*last part*/
+.blue-part{
+    background-color: rgb(243, 243, 243);
+    margin-top: 25px;
+}
+
+.red-part{
+    height: max-content;
+    margin-top: 25px
+}
+
+.yellow-part{
+    height: max-content;
+    margin-top: 25px
+}
+
+
+/*blue part*/
+.box1{
+    height: max-content;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.box2{
+    height: max-content;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:768px){
+    .blue-part{
+        height: 2200px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .blue-part{
+        display: flex; 
+        height: max-content;
+    }
+    .box1{
+        flex: 1;
+    }
+    .box2{
+        flex: 1;
+    }
+    .blue-part{
+        height: max-content;
+    }
+    .yellow-part{
+        height: max-content;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .blue-part{
+        display: block;
+        height: max-content;
+    }
+    .yellow-part{
+        height: max-content;
+    }
+    .html5-img{
+        display: flex;
+        height: 32%;
+        width:32%;
+        margin-top:100px;
+    }
+    .imgsh{
+        margin-left: 10px;
+        
+    }
+}
+
+/*red part*/
+
+.article .web-img img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.article-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+hr{
+    color: black
+}
+
+h4{
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article .react-img img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/*yellow part*/
+.panel .html5-img img{
+    margin-bottom: 20px;
+    height: auto;
+    width: 70%;
+}
+
+/*blue part*/
+.imgs1{
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+}
+
+.box-text{
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
